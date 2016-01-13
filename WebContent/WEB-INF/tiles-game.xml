@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+	
+<tiles-definitions>
+
+	<definition name="black" template="/game/BlackJack/layout/layout.jsp">
+		<put-attribute name="select" value="/game/BlackJack/select.jsp"/>
+		<put-attribute	name="body" value="/game/BlackJack/initCard.jsp" />
+	</definition> 
+
+</tiles-definitions>
